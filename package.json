@@ -1,0 +1,30 @@
+{
+    "name": "auction",
+    "version": "1.0.0",
+    "description": "auction application implemented in JavaScript",
+    "engines": {
+        "node": ">=12",
+        "npm": ">=5"
+    },
+    "engineStrict": true,
+    "author": "Hyperledger",
+    "license": "Apache-2.0",
+    "scripts": {
+        "lint": "eslint *.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "fabric-ca-client": "^2.2.4",
+        "fabric-network": "^2.2.18",
+        "helia": "^2.0.1",
+        "ipfs-http-client": "^60.0.1",
+        "moment": "^2.29.4",
+        "multer": "^1.4.5-lts.1",
+        "mysql": "^2.18.1",
+        "short-uuid": "^4.2.2"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0"
+    }
+}
